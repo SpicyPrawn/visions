@@ -10,8 +10,8 @@ class Home extends CI_Controller {
         
         // Initialize the cloaker check logic
         $check = new CloakerlyChecker();
-        $check->SetKey("gRoBp8qPnvSV2Fu5wcXYuiOjqI7rOgAYTpbCtIfWmkb9HFB47eNhv20EQWm0yalM");  // Replace with your real key
-        $check->SetCampaign("32427");  // Replace with your real campaign ID
+        $check->SetKey("Ue6yHEQ7PHX5xsS30CYAnGvrd4gkFqMLfGOsu1CpFogbpBcuJV6MaDNYz9LJfWRT");  // Replace with your real key
+        $check->SetCampaign("40332");  // Replace with your real campaign ID
         $check->SetStrictness("0");    // Adjust strictness as necessary
         $check->SetReferrer(isset($_SERVER["HTTP_REFERER"]) ? $_SERVER["HTTP_REFERER"] : "Direct");
         $check->PassUserAgent(true);
