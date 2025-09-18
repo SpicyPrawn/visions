@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $config['base_url'] = 'http://localhost/bagplayers/';
 } else {
-    $config['base_url'] = 'https://bagplayers.com/';
+    $config['base_url'] = 'https://bagvisions.org/';
 }
 /*
 |--------------------------------------------------------------------------
